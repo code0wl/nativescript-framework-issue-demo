@@ -22,5 +22,5 @@ The plugins in question are the following.
 - [nativescript-live-engage](https://github.com/Essent/nativescript-live-engage)
 - [nativescript-urban-airship](https://github.com/Essent/nativescript-urban-airship)
 
-Point of interest is that the urban-airship library is included as a cocoapod and the liveperson live engage library is included as a framework which gets put in the correct output directory via an after-prepare hook npm script
+Point of interest is that the urban-airship library is included as a cocoapod and the liveperson live engage library is included as a framework which gets put in the correct output directory via an after-prepare hook node script.
 
