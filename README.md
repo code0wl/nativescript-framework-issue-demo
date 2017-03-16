@@ -16,8 +16,8 @@ Mar 16 11:02:23 Oscars-MacBook-Pro com.apple.CoreSimulator.SimDevice.93AAB200-A5
 
 This is coming from the Urban Airship plugin who cannot reference the item anymore.
 
-#### Plugins
-The plugins in question are
+#### Plugins (already included inside of the project)
+The plugins in question are the following. 
 
 - [nativescript-live-engage](https://github.com/Essent/nativescript-live-engage)
 - [nativescript-urban-airship](https://github.com/Essent/nativescript-urban-airship)
