@@ -1,4 +1,4 @@
-# NativeScript external plugin issue
+# NativeScript external plugin issue iOS
 ## Synopsis
 This repo is a demo for the issue we are currently having when trying to achieve both frameworks to work in unison for iOS
 
@@ -11,7 +11,7 @@ The bundle “PersistenceTesting” couldn’t be loaded because its executable 
 
 > bash debug stdout  
 ```bash
-Mar 16 11:02:23 Oscars-MacBook-Pro com.apple.CoreSimulator.SimDevice.93AAB200-A581-4BE4-BEC0-4360B1FA74FB.launchd_sim[95792] (UIKitApplication:org.nativescript.frameworkissuedemo[0x93fc][73825]): Service exited due to Segmentation fault: 11
+com.apple.CoreSimulator.SimDevice.93AAB200-A581-4BE4-BEC0-4360B1FA74FB.launchd_sim[95792] (UIKitApplication:org.nativescript.frameworkissuedemo[0x93fc][73825]): Service exited due to Segmentation fault: 11
 ```
 
 This is coming from the Urban Airship plugin who cannot reference the item anymore.
