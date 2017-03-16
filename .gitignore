@@ -1,0 +1,12 @@
+.idea
+.vscode
+node_modules/
+*.css
+*.iml
+platforms/
+app/**/*.js
+*.map
+.DS_Store
+app/.DS_Store
+npm-debug.log
+.history
