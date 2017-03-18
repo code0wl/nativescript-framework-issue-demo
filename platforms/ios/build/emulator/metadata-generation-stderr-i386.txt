@@ -1,0 +1,178 @@
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: i386-apple-darwin16.4.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK/AirshipKit.framework/Headers" "-I" "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator/include" "-I" "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator" "-F/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal/" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/nativescript-live-engage/platforms/ios" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+ignoring nonexistent directory "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK"
+ignoring nonexistent directory "/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK/AirshipKit.framework/Headers"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator (framework directory)
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal (framework directory)
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/nativescript-live-engage/platforms/ios (framework directory)
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
+End of search list.
+clang version 3.9.0 (tags/RELEASE_390/final)
+Target: i386-apple-darwin16.4.0
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "objc-metadata-generator" "-cc1" "-triple" "i386-apple-ios8.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-discard-value-names" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "264.3.102" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.9.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk" "-iquote" "/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK/AirshipKit.framework/Headers" "-I" "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator/include" "-I" "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator" "-F/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal/" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/nativescript-live-engage/platforms/ios" "-F/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios" "-D" "COCOAPODS=1" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-Wno-nullability-completeness" "-Wno-expansion-to-defined" "-std=gnu99" "-fdebug-compilation-dir" "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-8.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 3.9.0 based upon LLVM 3.9.0 default target x86_64-apple-darwin16.4.0
+ignoring nonexistent directory "/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK"
+ignoring nonexistent directory "/Users/oscarlodriguez/Library/Developer/Xcode/DerivedData/nativescriptframeworkissuedemo-agrwzcltqkkimfhgrzmyuhbsvagm/Build/Products/Debug-iphonesimulator/UrbanAirship-iOS-SDK/AirshipKit.framework/Headers"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/local/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/build/emulator (framework directory)
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/internal (framework directory)
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/nativescript-live-engage/platforms/ios (framework directory)
+ /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/platforms/ios/../../node_modules/tns-core-modules-widgets/platforms/ios (framework directory)
+ ../lib/clang/3.9.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks (framework directory)
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/Library/Frameworks (framework directory)
+End of search list.
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:244:30: error: cannot find interface declaration for 'NSManagedObject', superclass of 'LPAccountEntity'; did you mean 'NSManagedObjectModel'?
+@interface LPAccountEntity : NSManagedObject
+                             ^~~~~~~~~~~~~~~
+                             NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:244:30: error: attempting to use the forward class 'NSManagedObjectModel' as superclass of 'LPAccountEntity'
+@interface LPAccountEntity : NSManagedObject
+~~~~~~~~~~~~~~~~~~~~~~~~~~   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:253:28: error: cannot find interface declaration for 'NSManagedObject', superclass of 'LPBrandEntity'; did you mean 'NSManagedObjectModel'?
+@interface LPBrandEntity : NSManagedObject
+                           ^~~~~~~~~~~~~~~
+                           NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:253:28: error: attempting to use the forward class 'NSManagedObjectModel' as superclass of 'LPBrandEntity'
+@interface LPBrandEntity : NSManagedObject
+~~~~~~~~~~~~~~~~~~~~~~~~   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:280:31: error: cannot find interface declaration for 'NSManagedObject', superclass of 'LPCampaignEntity'; did you mean 'NSManagedObjectModel'?
+@interface LPCampaignEntity : NSManagedObject
+                              ^~~~~~~~~~~~~~~
+                              NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:280:31: error: attempting to use the forward class 'NSManagedObjectModel' as superclass of 'LPCampaignEntity'
+@interface LPCampaignEntity : NSManagedObject
+~~~~~~~~~~~~~~~~~~~~~~~~~~~   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:695:35: error: cannot find interface declaration for 'NSManagedObject', superclass of 'LPConversationEntity'; did you mean 'NSManagedObjectModel'?
+@interface LPConversationEntity : NSManagedObject
+                                  ^~~~~~~~~~~~~~~
+                                  NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:695:35: error: attempting to use the forward class 'NSManagedObjectModel' as superclass of 'LPConversationEntity'
+@interface LPConversationEntity : NSManagedObject
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:764:27: error: cannot find interface declaration for 'NSManagedObject', superclass of 'LPFileEntity'; did you mean 'NSManagedObjectModel'?
+@interface LPFileEntity : NSManagedObject
+                          ^~~~~~~~~~~~~~~
+                          NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:764:27: error: attempting to use the forward class 'NSManagedObjectModel' as superclass of 'LPFileEntity'
+@interface LPFileEntity : NSManagedObject
+~~~~~~~~~~~~~~~~~~~~~~~   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:841:37: error: expected a type
++ (void)saveDataWithGetContextFrom:(NSManagedObject * _Nullable)obj;
+                                    ^
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:842:30: error: expected a type
++ (BOOL)deleteManagedObject:(NSManagedObject * _Nonnull)object context:(NSManagedObjectContext * _Nullable)givenContext;
+                             ^
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:1201:30: error: cannot find interface declaration for 'NSManagedObject', superclass of 'LPMessageEntity'; did you mean 'NSManagedObjectModel'?
+@interface LPMessageEntity : NSManagedObject
+                             ^~~~~~~~~~~~~~~
+                             NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:1201:30: error: attempting to use the forward class 'NSManagedObjectModel' as superclass of 'LPMessageEntity'
+@interface LPMessageEntity : NSManagedObject
+~~~~~~~~~~~~~~~~~~~~~~~~~~   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:1311:27: error: cannot find interface declaration for 'NSManagedObject', superclass of 'LPUserEntity'; did you mean 'NSManagedObjectModel'?
+@interface LPUserEntity : NSManagedObject
+                          ^~~~~~~~~~~~~~~
+                          NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:1311:27: error: attempting to use the forward class 'NSManagedObjectModel' as superclass of 'LPUserEntity'
+@interface LPUserEntity : NSManagedObject
+~~~~~~~~~~~~~~~~~~~~~~~   ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:1432:12: error: cannot find interface declaration for 'NSManagedObject'; did you mean 'NSManagedObjectModel'?
+@interface NSManagedObject (SWIFT_EXTENSION(LPInfra))
+           ^~~~~~~~~~~~~~~
+           NSManagedObjectModel
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: 'NSManagedObjectModel' declared here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:533:
+/Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-live-engage/platforms/ios/LPInfra.framework/Headers/LPInfra-Swift.h:1432:12: error: cannot define category for undefined class 'NSManagedObjectModel'
+@interface NSManagedObject (SWIFT_EXTENSION(LPInfra))
+           ^
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIManagedDocument.h:13:8: note: forward declaration of class here
+@class NSManagedObjectModel;
+       ^
+In file included from umbrella.h:737:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/os/log.h:35:2: error: using os/log.h requires Xcode 8 or later
+#error using os/log.h requires Xcode 8 or later
+ ^
+19 errors generated.

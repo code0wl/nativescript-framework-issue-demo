@@ -1,0 +1,9 @@
+use_frameworks!
+
+target "nativescriptframeworkissuedemo" do
+# Begin Podfile - /Users/oscarlodriguez/Documents/clients/Essent/nativescript-framework-issue-demo/node_modules/nativescript-urban-airship/platforms/ios/Podfile 
+ pod 'UrbanAirship-iOS-SDK' , '8.1.4'
+ 
+ # End Podfile 
+
+end
