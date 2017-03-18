@@ -10,3 +10,5 @@ app/.DS_Store
 npm-debug.log
 .history
 Podfile
+build
+tns_modules
