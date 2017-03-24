@@ -1,4 +1,11 @@
 # NativeScript external plugin issue iOS
+Setup:
+```bash
+git clone git@github.com:code0wl/nativescript-framework-issue-demo.git
+cd nativescript-framework-issue-demo
+tns prepare ios
+open platforms/ios/nativescriptframeworkissuedemo.xcworkspace/
+```
 ## Synopsis
 This repo is a demo for the issue we are currently having when trying to achieve both frameworks to work in unison for iOS
 
