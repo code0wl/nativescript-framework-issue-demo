@@ -19,7 +19,8 @@
     "@angular/platform-browser-dynamic": "2.4.3",
     "@angular/router": "3.4.3",
     "nativescript-angular": "1.4.0",
-    "nativescript-live-engage": "1.1.0",
+    "nativescript-custom-entitlements": "^0.2.0",
+    "nativescript-live-engage": "1.2.3",
     "nativescript-theme-core": "1.0.2",
     "nativescript-urban-airship": "1.2.1",
     "reflect-metadata": "0.1.8",
@@ -30,7 +31,7 @@
     "nativescript-dev-android-snapshot": "^0.*.*",
     "nativescript-dev-typescript": "0.3.5",
     "tns-platform-declarations": "^2.5.0",
-    "typescript": "^2.1.0",
+    "typescript": "~2.1.0",
     "zone.js": "0.7.2"
   }
 }

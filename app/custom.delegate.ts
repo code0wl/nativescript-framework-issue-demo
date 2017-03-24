@@ -1,4 +1,5 @@
 import { NsUrbanairship } from 'nativescript-urban-airship';
+import { LiveEngage } from 'nativescript-live-engage';
 
 const urbanAirshipSettings = {
     developmentAppKey: 'test',
@@ -9,8 +10,6 @@ const urbanAirshipSettings = {
     productionAppKey: '',
     productionAppSecret: ''
 };
-
-declare const LPMessagingSDK: any;
 
 export class CustomDelegate extends UIResponder implements UIApplicationDelegate {
 
@@ -27,7 +26,8 @@ export class CustomDelegate extends UIResponder implements UIApplicationDelegate
 
         // initialize LivePersonSDK with a dummy account.
         // Will never work but serves to show if the component is not clashing with the cocoapods
-        LPMessagingSDK.instance.initializeError('12345678');
+        // LPMessagingSDK.instance.initializeError('12345678');
+        LiveEngage.initializeChat('87555616');
 
         return true;
     }
